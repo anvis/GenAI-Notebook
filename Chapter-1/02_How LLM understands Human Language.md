@@ -86,3 +86,17 @@ The tokenizer hasn’t seen it enough to merge all its sub-parts.
 So it breaks it into smaller known subword tokens like:
 ["anti", "dis", "establish", "ment", "arian", "ism"]
 Each of these subwords is a token, so the word becomes 6 tokens.
+
+---
+
+**Self-attention** lets every token look at every other token and ask: "how relevant are you to understanding me?" This produces context-aware representations — the same word gets a different vector depending on its surroundings.
+
+**Multiple attention heads** capture different types of relationships simultaneously (syntactic, semantic, coreference, etc.).
+
+---
+
+**Context Window**
+
+When you speak with LLM it doesn't remember everything you type in, it has some memory, It is called **context window**. If your text is more than this context window your LLM will forget the context.
+
+A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.
