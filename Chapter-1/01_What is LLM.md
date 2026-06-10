@@ -7,11 +7,5 @@ LLM is Large Language Model, It is a model that is large and understand human la
 
 
 
-**Tokenization**
 
 
-
-
-**Context Window**
-
-When you speak with LLM it doesn't remember everything you type in, it has some memory, It is called **context window**. If your text is more than this context window your LLM will forget the context.
