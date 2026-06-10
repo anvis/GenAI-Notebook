@@ -25,6 +25,8 @@ The problem with encoding is each word is not related to one other, The encoding
 
 The Solution is Embeddings, where it captures meaning of each word. Embeddings are two levels word level and Sentence level.
 
+Embeddings (Vectors): Each token is converted into a long string of numbers (a vector). These numbers place the token into a multi-dimensional mathematical space. Words with similar meanings or contexts (like "king" and "queen", or "coffee" and "tea") are placed close together in this digital space.
+
 #### **Example:**
 
 If word embeddings have 3 dimensions:
