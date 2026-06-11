@@ -8,6 +8,12 @@ It stores all related data closely. If you remember when we did Embedding the wo
 
 ---
 
+Vector databases solve the problem of semantic similarity search that SQL or MongoDB cannot handle efficiently. Instead of exact keyword matches, they allow you to retrieve results based on meaning, enabling faster and more accurate search in AI-driven applications.
+
+Problems with SQL: Exact matches, Searching “car” won’t return “automobile.”, “Apple” (fruit) vs. “Apple” (company) are treated the same.
+
+---
+
 Similarity Search:
 
 “Similarity search” or “semantic search” refers to finding information that has similar features or meaning from a set of data. It’s like searching for similar movies in an app, looking for similar shoes on an e-commerce website, or finding data related to a specific meaning.
