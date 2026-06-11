@@ -38,3 +38,16 @@ Widely Used Vector Databases:
 - Pinecone: Setup, API key generation, index creation, clusters, storing embeddings, similarity search.
 - Chroma DB: Installation and basic usage for storing and retrieving embeddings.
 - FAISS (Facebook AI Similarity Search): Mentioned as another vector database.
+
+---
+
+<img width="1275" height="716" alt="image" src="https://github.com/user-attachments/assets/d45e4998-aa04-4558-9ee0-93bb94d4e068" />
+
+---
+
+<img width="1263" height="613" alt="image" src="https://github.com/user-attachments/assets/c8cfe1da-a76a-4a9d-be02-5615d94539d2" />
+
+---
+
+<img width="1241" height="617" alt="image" src="https://github.com/user-attachments/assets/dfd01511-92dc-4de6-8c03-25faabf4dd60" />
+
