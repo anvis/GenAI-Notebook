@@ -9,7 +9,6 @@ It calculates the probability of certain words appearing near other words.
 
 ---
 
-Before a model can process a prompt, it has to learn how language works. 
 During its training phase, the model reads billions of pages of text (books, articles, websites).
 Instead of learning facts or concepts like a human student, it analyzes **how words relate to each other**. 
 
@@ -28,7 +27,20 @@ It decides which words are most important to the overall meaning.
 Once the model understands the mathematical context of your prompt, it begins to generate a response. 
 Crucially, it writes its answer one token at a time.
 
+```
+Transformers read all tokens in parallel, not sequentially. So by default, they don’t know which word came first. That’s where positional encoding comes in — it gives each token a sense of order.
+
+Sentence: “The cat sat on the mat.”
+
+Without position info, the model only sees a bag of tokens: ["The", "cat", "sat", "on", "the", "mat"] — all equal. With positional encoding, each token gets a subtle pattern added to its vector: The₁, cat₂, sat₃, on₄, the₅, mat₆
+
+Now the model knows “cat” comes before “sat,” and “mat” is at the end. You can think of positional encoding as GPS coordinates for words — it tells the model where each word sits in the sentence. '''
+
+**Self‑Attention** — Who Should I Focus On? Once every token knows its position, self‑attention lets each token look at all others and decide which ones matter most for understanding. Example Sentence: “The cat sat on the mat because it was tired.”
+
 Some models are trained using Reinforcement Learning to generate an internal "chain of thought" before giving you the final answer. To test and analyze the response.
+
+```
 
 ---
 
