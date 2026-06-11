@@ -102,3 +102,27 @@ Each of these subwords is a token, so the word becomes 6 tokens.
 When you speak with LLM it doesn't remember everything you type in, it has some memory, It is called **context window**. If your text is more than this context window your LLM will forget the context.
 
 A larger context window enables an AI model to process longer inputs and incorporate a greater amount of information into each output.
+
+---
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/d5d43ade-4497-4050-a1ce-fe5191851460" />
+
+---
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e82ac80c-04a6-47d0-b7d4-90e95165b5c4" />
+
+---
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/03c0ffde-a528-4f81-986e-98d612d7e928" />
+
+---
+
+**Embedding vs Encoding:**
+
+Tokenization → Breaks raw text into manageable pieces. 
+
+Encoding → General process of turning tokens into numbers. 
+
+Vectorization (basic encoding) → Basic numeric representation. One-hot encoding→ [0,0,0,1,0,...].
+
+Embeddings (Advance encoding) → Improves vectorization by learning dense, continuous representations. Advanced, learned encodings that capture meaning and context. → [0.23, -0.11, 0.89,...].
