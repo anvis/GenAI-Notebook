@@ -8,7 +8,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 
 #from llm import initialize_azure_model
 
-model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key="AIzaSyDOcuK2elfIVOXwUAUeW30sHk80PRaF3SQ")
+model = ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key="Key")
 
 async def main():
 
